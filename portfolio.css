@@ -11,13 +11,10 @@
   margin: 15em;
   horizontal-align:center;
 }
-/*
 body{
   background: url(http://livewallpaper.info/wp-content/uploads/2016/09/dark-grey-wallpaper6.jpg);
     background-repeat: repeat-y repeat-x;
 }
-Original background used when I first created my portfolio page.
-*/
 .border{
   border-style: solid;
   border-color: black;

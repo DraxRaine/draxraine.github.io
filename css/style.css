@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+.b{
+  font-weight:bold;
+}
+.block{
+  background-color: rgba(73,0,14,.17);
+  margin-left: 25vw; 
+  margin-right: 25vw;
+  border-radius: 3vw;
+  padding: 1vw;
+}
+.block1{
+  background-color: rgba(73,0,14,.73);
+  margin: auto;
+  width: 90%;
+  border-radius: 3vw;
+  padding: 0vw;
+  border: 0vw;
+}
+.block2{
+  background-color: rgba(0,0,0,.8)
+}
+.block3{
+   background-color: rgba(27, 53, 78, .7);
+  margin-left:5vw;
+  margin-right:5vw;
+  border-width:1vw;
+  border-radius:2vw;
+  padding: 2vw; 
+}
+.blockPadding{
+  margin-top: 9.4vw;
+  margin-bottom:auto;
+}
+.blockPadding1{
+  margin-top: 5.4vw;
+  margin-bottom:auto;
+}
+html,body{
+  font-family: Cinzel, Serif;
+  /*overflow-y: scroll;*/
+  width: 100%;
+  padding:0vw;
+  margin:0vw;
+overflow-x: hidden;
+   
+  
+}
+.border{
+  border-style: solid;
+  border-color: #ED6637;
+  border-width: 1vw;
+  border-radius: 20vw;
+}
+.border1{
+  border-style: solid;
+  border-color: #E3C737;
+  border-width: 1vw;
+  border-radius: 4vw;
+}
+.border2{
+  border-style: solid;
+  border-color: #8A9599;
+  border-width: 1vw;
+  border-radius: 5vw;
+}
+.border3{
+  border-style: solid;
+  border-color: #ffac99;
+  border-width: 1vw;
+  border-radius: 5vw;
+}
+.bottomright {
+    position: absolute;
+    bottom: 8em;
+    right: 9em;
+    font-size: 1vw;
+}
+.bt{
+  margin-top:5vw;
+}
+.btn-default{
+  font-weight:bold;
+  font-size: 1vw;
+}
+.center{
+  text-align: center;
+}
+.col{
+  display: table-cell;
+    padding: 3vw;
+}
+.col-container{
+  display: table;
+    width: 100%;
+}
+div{
+  padding:0vw;
+}
+.fontColor{
+  color: #13BDB1; /*teal*/
+}
+.fontColor1{
+  color: #49000E;
+}
+.fontColor2{
+  color: #E2CA42;
+}
+.fontColor3{
+  color:#BD9B92;
+}
+.fr{
+  float: right;
+}
+h1{
+  font-size: 4vw;
+}
+.h1Font{
+  font-family:'Cinzel', Serif;
+  font-size: 6vw;
+  color: #009F93;
+  margin: 0vw;
+  padding: 0vw;
+  border: 0vw;
+}
+.h6Font{
+  font-family:'Cinzel', Serif;
+  font-size: 2vw;
+  color: #009F93;
+  margin: 0em;
+  padding-left: .5vw;
+  border: 0em;
+}
+.img1{
+  margin:auto;
+  width: 90%;
+  padding:0;
+}
+.imageResize{
+  width: 35vw;
+}
+.imageResize1{
+  width: 19vw;
+}
+.imageResize2{
+  width: 13vw;
+}
+.imgResize3{
+  width:8vw;
+}
+.imgResize4{
+  width:11vw;
+}
+/*li{
+  padding-right: 1vw;
+  padding-left: 1vw;
+}*/
+.ma{
+  margin-top:50%;
+  margin-bottom:50%
+}
+.mt{
+  margin-top: 15%;
+  margin-left:13%;
+}
+.mt1{
+  margin-top: 13%;
+}
+.mt2{
+  margin-left: 190%;
+}
+.mt3{
+  margin-left: 3vw;
+}
+.nav-pills{
+  font-size: 1.8vw;
+}
+.p1{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-bottom: 0;
+  text-indent: 5vw;
+}
+.pbtm{
+  padding-bottom:42vw;
+}
+/*.pageOne{
+  background:url("https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06f9ac7beba49a5068048d75ac9bd953&auto=format&fit=crop&w=1350&q=80") no-repeat;
+ background-size: 190vw 100vw;
+ background-repeat: no-repeat;
+  height: 80vw;
+  margin-top: -4%;
+}*/
+.pageZero{
+  background:url("http://i1.wp.com/artistsinspireartists.com/wp-content/uploads/2012/10/Artists-Series-Nick-Gentry-10.jpeg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.pageOneRedo{
+  background:url("https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06f9ac7beba49a5068048d75ac9bd953&auto=format&fit=crop&w=1350&q=80");
+  background-repeat: no-repeat;
+ background-size: cover;
+  height: 80vw;
+}
+.pageTwo{
+  background:url("https://images.unsplash.com/photo-1506834126950-e929553c3183?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f6c4654aad5c5a8aafe0cb209cb8fe9&auto=format&fit=crop&w=2134&q=80");
+  background-size:cover;
+  height:70vw;
+}
+.pageThree{
+  background: url("https://images.unsplash.com/photo-1502176747191-3354e2597a5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a47195ab105472213f9e589e92c2df74&auto=format&fit=crop&w=2018&q=80");
+  background-size:cover;
+}
+.pageFour{
+  background: url("https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0e3917e828b7c2502b0041813eff1294&auto=format&fit=crop&w=2134&q=80");
+  background-size:cover;
+}
+.pageFive{
+    background:url("https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e93bafdf253cbb4a91f58a66458d9b56&auto=format&fit=crop&w=1534&q=80");
+  background-size: cover;
+
+}
+.pt{
+  padding-top: 1vw;
+}
+.pt1{
+  padding-top: 3vw;
+  padding-bottom: 17vw;
+}
+.pt2{
+  padding-left:.9vw;
+  padding-right:.9vw;
+}
+.pt3{
+  padding-top:54vw;
+  padding-bottom:40vw;
+}
+.pt4{
+  padding-bottom:1vw;
+}
+.relative{
+  position: relative;
+  top: 15vw;
+}
+.relatvie1{
+  position: relative;
+  vertical-align: middle;
+}
+.size{
+  font-size: 2vw;
+}
+.size1{
+  font-size: 1.95vw;
+}
+.size2{
+  font-size: 1.34vw;
+}
+.size3{
+  font-size: 5vw;
+  color: #ffac99;
+}
+.size4{
+    font-size: 2vw;
+  color: #ffac99;
+}
+.va{
+  vertical-align: middle;
+}
+.zp{
+  padding:1.2vw;
+}
+.zp1{
+  padding:auto;
+  border:0;
+  margin:0;
+} 
+.zp2{
+  padding:0vw;
+}
+/*
+*{
+  background: #000 !important;
+   outline: solid #f00 1px !important;
+ color: #0f0 !important;
+     }
+
+Excellent tool for debugging CSS
+
+https://stackoverflow.com/questions/4617872/white-space-showing-up-on-right-side-of-page-when-background-image-should-extend/23482467#23482467?newreg=1e22b668e1e74fc9ab8c4e1eef5903e4 
+*/

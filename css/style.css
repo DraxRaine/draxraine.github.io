@@ -196,7 +196,7 @@ object-fit:cover;
 .pageZero{
   background:url("/images/NG_Reunion.jpg");
   background-repeat: no-repeat;
-  background-size:contain;
+  background-size:cover;
 }
 .pageOneRedo{
   background:url("https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06f9ac7beba49a5068048d75ac9bd953&auto=format&fit=crop&w=1350&q=80");

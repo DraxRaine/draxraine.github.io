@@ -199,6 +199,7 @@ h1{
 }
 .pageZero {
     background: url("/images/NG_Reunion.jpg");
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;

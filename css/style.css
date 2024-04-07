@@ -193,7 +193,7 @@ h1{
   margin-top: -4%;
 }*/
 .pageZero{
-  background:url(\images\NG_Reunion.jpg);
+  background:url("/images/NG_Reunion.jpg");
   background-repeat: no-repeat;
   background-size:cover;
 }

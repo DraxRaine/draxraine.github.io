@@ -187,10 +187,11 @@ h1{
 }
 .pageOne{
   background:url("/images/whiteOrchids.avif") no-repeat;
- background-size: 190vw 100vw;
+/* background-size: 190vw 100vw;
  background-repeat: no-repeat;
   height: 80vw;
-  margin-top: -4%;
+  margin-top: -4%;*/
+object-fit:contain;
 }
 .pageZero{
   background:url("/images/NG_Reunion.jpg");

@@ -186,14 +186,14 @@ h1{
   padding-bottom:42vw;
 }
 /*.pageOne{
-  background:url("https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06f9ac7beba49a5068048d75ac9bd953&auto=format&fit=crop&w=1350&q=80") no-repeat;
+  background:url(/images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06f9ac7beba49a5068048d75ac9bd953&auto=format&fit=crop&w=1350&q=80") no-repeat;
  background-size: 190vw 100vw;
  background-repeat: no-repeat;
   height: 80vw;
   margin-top: -4%;
 }*/
 .pageZero{
-  background:url("https://i1.wp.com/artistsinspireartists.com/wp-content/uploads/2012/10/Artists-Series-Nick-Gentry-10.jpeg");
+  background:url(\images\NG_Reunion.jpg);
   background-repeat: no-repeat;
   background-size:cover;
 }

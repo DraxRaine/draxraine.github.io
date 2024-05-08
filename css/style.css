@@ -44,8 +44,6 @@ html,body{
   padding:0vw;
   margin:0vw;
 overflow-x: hidden;
-   
-  
 }
 .border{
   border-style: solid;
@@ -205,18 +203,18 @@ h1{
     background-attachment: fixed;
 }
 .pageOneRedo{
-  background:url("https://images.unsplash.com/photo-1454262041357-5d96f50a2f27?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=06f9ac7beba49a5068048d75ac9bd953&auto=format&fit=crop&w=1350&q=80");
+  background:url("/images/whiteOrchids.jpg");
   background-repeat: no-repeat;
  background-size: cover;
   height: 80vw;
 }
 .pageTwo{
-  background:url("https://images.unsplash.com/photo-1506834126950-e929553c3183?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f6c4654aad5c5a8aafe0cb209cb8fe9&auto=format&fit=crop&w=2134&q=80");
+  background:url("/images/colorStar.jpg");
   background-size:cover;
   height:70vw;
 }
 .pageThree{
-  background: url("https://images.unsplash.com/photo-1502176747191-3354e2597a5f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a47195ab105472213f9e589e92c2df74&auto=format&fit=crop&w=2018&q=80");
+  background: url("/images/forrestBridge.jpg");
   background-size:cover;
 }
 .pageFour {
@@ -227,7 +225,7 @@ h1{
     background-attachment: fixed;
 }
 .pageFive{
-    background:url("https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e93bafdf253cbb4a91f58a66458d9b56&auto=format&fit=crop&w=1534&q=80");
+    background:url("/images/rainDrops.jpg");
   background-size: cover;
 
 }

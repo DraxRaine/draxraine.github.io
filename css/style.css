@@ -93,6 +93,14 @@ overflow-x: hidden;
   display: table;
     width: 100%;
 }
+.container{
+  width: 65%;
+  /* height: 100vh; */
+  background-color: #ee7eb9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 div{
   padding:0vw;
 }
@@ -107,6 +115,41 @@ div{
 }
 .fontColor3{
   color:#BD9B92;
+}
+form{
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 60%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+form h3{
+  color: #555;
+  font-weight: 800;
+  margin-bottom: 20px;
+
+}
+form input, form textarea{
+  border:0;
+  margin: 3px 0;
+  padding: 10px;
+  outline: none;
+  background: #f5f5f5;
+  font-size: 16px;
+}
+form button{
+  padding: 15px;
+  background: #ff5361;
+  color:#fff;
+  font-size: 18px;
+  border:0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin:20px auto 0;
+  border-radius: 30px;
 }
 .fr{
   float: right;
@@ -220,7 +263,7 @@ h1{
 .pageFour {
     background: url("/images/hallway.jpg");
     background-position: center;
-    background-size: contain;
+    background-size: auto; /*cover; contain;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
 }

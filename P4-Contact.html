@@ -18,22 +18,32 @@
 
 <body class="pageFour row" id="p4">
 
-	<p>
+	<p class="center">
 		<a class="b btn btn-default fontColor" href="index.html">Home Page</a>
 		<a class="b btn btn-default fontColor" href="P1-Links.html">Links</a>
 		<a class="b btn btn-default fontColor" href="P2-AboutMe.html">About Me</a>
 		<a class="b btn btn-default fontColor" href="P3-Projects.html">Projects</a>
 		<a class="b btn btn-default fontColor" href="P5-Refs.html">References</a>
-	</p>
+		<br />
+		<br />
+		<h1 class="center"> Contact Me Via Email</h1>
+		<br />
+		<br />
+		<br />
 
-		<div class="center pt3">
-			<h1> Contact Information</h1>
-			<br />
-			<h2> Email Address</h2>
-			<h2>adrianfabian2003@yahoo.com</h2>
-			<br />
-			<br />
-		</div>
+		<form class = "container" action="https://formsubmit.co/08adeca8706bc67eb7eb0ffe568107a5" method="POST">
+			<h3>Get In Touch</h3>
+			<input type="hidden" name="_subject" value="New Portfolio Message">
+			<input type="text" id="name" placeholder="Your Name" required>
+			<input type="email" id="email" placeholder="Email Address" required>
+			<input type="text" id="phone" placeholder="Phone Number">
+			<textarea id="message" rows = "4" placeholder="How can I assist you?"></textarea>
+			<button type = "submit">SEND</button>
+			<input type="hidden" name="_next" value="https://advforesight.com/P6-ThankYou.html">
+		</form>
+
+	
+	</p>
 
 </body>
 

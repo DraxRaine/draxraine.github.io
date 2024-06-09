@@ -116,6 +116,10 @@ div{
 .fontColor3{
   color:#BD9B92;
 }
+.fontColor4{
+  color:#fff;
+  font-weight: bold;
+}
 form{
   background: #fff;
   display: flex;
@@ -270,7 +274,10 @@ h1{
 .pageFive{
     background:url("/images/rainDrops.jpg");
   background-size: cover;
-
+}
+.pageSix {
+  background: url("/images/ThankYou2.jpg");
+  background-size: cover;
 }
 .pt{
   padding-top: 1vw;
